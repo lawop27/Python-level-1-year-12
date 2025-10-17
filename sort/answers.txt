@@ -1,4 +1,4 @@
-sort1 uses: merge sort
+sort1 uses: selection sort
 
 How do you know?: sort1 takes roughly the same amount of time regardless of whether the list is already sorted, reversed, or random. This consistent timing indicates that the algorithm always performs the same number of comparisons and swaps, as is the case with selection sort.
 
@@ -6,6 +6,6 @@ sort2 uses: Selection Sort
 
 How do you know?: sort2 finishes very quickly when given an already sorted list but takes much longer when given a reversed list. This suggests that the algorithm repeatedly swaps adjacent elements until the list is sorted, which is the behavior of bubble sort.
 
-sort3 uses: Bubble Sort
+sort3 uses: merge sort
 
 How do you know?: sort3 completes sorting tasks very quickly for all inputs, including reversed and random lists. This consistent and efficient performance indicates a divide-and-conquer algorithm with O(n log n) complexity, characteristic of merge sort.
