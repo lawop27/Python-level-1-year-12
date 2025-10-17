@@ -1,12 +1,10 @@
-sort1 uses: bubble sort
+sort1 uses: Selection Sort
 
-How do you know?: When given an already sorted list, sort1 finishes very quickly. However, when given a reversed list, it takes much longer. This indicates that the algorithm repeatedly swaps adjacent elements until the list is sorted, which is the behavior of bubble sort.
+How do you know?: sort1 takes roughly the same amount of time regardless of whether the list is already sorted, reversed, or random. This consistent timing indicates that the algorithm always performs the same number of comparisons and swaps, as is the case with selection sort.
 
+sort2 uses: Bubble Sort
 
-sort2 uses: selection sort
-
-How do you know?: sort2 takes roughly the same amount of time regardless of whether the list is already sorted, reversed, or random. This is consistent with selection sort, which always performs the same number of comparisons and swaps, even if the data is already sorted.
-
+How do you know?: sort2 finishes very quickly when given an already sorted list but takes much longer when given a reversed list. This suggests that the algorithm repeatedly swaps adjacent elements until the list is sorted, which is the behavior of bubble sort.
 
 sort3 uses: merge sort
 
