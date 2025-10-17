@@ -8,4 +8,4 @@ How do you know?: sort2 completes sorting tasks very quickly for all inputs, inc
 
 sort3 uses: selection sort
 
-How do you know?: sort3 completes sorting tasks very quickly for all inputs, including reversed and random lists. This consistent and efficient performance indicates a divide-and-conquer algorithm with O(n log n) complexity, characteristic of merge sort.
+How do you know?: sort3 takes roughly the same amount of time regardless of whether the list is already sorted, reversed, or random. This consistent timing indicates that the algorithm always performs the same number of comparisons and swaps, as is the case with selection sort.
