@@ -2,7 +2,7 @@ sort1 uses: selection sort
 
 How do you know?: sort1 takes roughly the same amount of time regardless of whether the list is already sorted, reversed, or random. This consistent timing indicates that the algorithm always performs the same number of comparisons and swaps, as is the case with selection sort.
 
-sort2 uses: Selection Sort
+sort2 uses: Bubble Sort
 
 How do you know?: sort2 finishes very quickly when given an already sorted list but takes much longer when given a reversed list. This suggests that the algorithm repeatedly swaps adjacent elements until the list is sorted, which is the behavior of bubble sort.
 
